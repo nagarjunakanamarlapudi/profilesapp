@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "$amplify/*": [
+        ".amplify/generated/*",
+        ".amplify/*",
+        "amplify/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "amplify/**/*.ts",
+    ".amplify/**/*.ts",
+    "types/**/*.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}

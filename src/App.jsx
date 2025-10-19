@@ -42,6 +42,8 @@ export default function App() {
     >
       <Heading level={1}>My Profile</Heading>
       <Divider />
+
+      user profiles : {userprofiles}
       <Grid
         margin="3rem 0"
         autoFlow="column"
